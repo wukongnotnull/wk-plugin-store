@@ -1,0 +1,38 @@
+# Claude Code plugin cache
+.claude/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+.next/
+.nuxt/
+
+# Local plugin development (plugins are fetched via git-subdir)
+plugins/
+
+# OS files
+.DS_Store

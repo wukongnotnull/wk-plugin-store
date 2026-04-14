@@ -1,0 +1,45 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wk-plugin-store",
+  "owner": {
+    "name": "wukongnotnull"
+  },
+  "metadata": {
+    "description": "Private Claude Code plugin marketplace for custom skills and tools",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "wk-frontend-design",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wukongnotnull/wk-skills",
+        "path": "skills/wk-frontend-design"
+      },
+      "description": "Frontend design skill with patterns, design tokens, and component guidelines",
+      "version": "1.0.0",
+      "author": {
+        "name": "wukongnotnull"
+      },
+      "homepage": "https://github.com/wukongnotnull/wk-skills",
+      "category": "design",
+      "tags": ["frontend", "design", "ui", "css"]
+    },
+    {
+      "name": "wk-html-slides-amber-classified",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/wukongnotnull/wk-skills",
+        "path": "skills/wk-html-slides-amber-classified"
+      },
+      "description": "HTML slides skill for amber-classified presentations",
+      "version": "1.0.0",
+      "author": {
+        "name": "wukongnotnull"
+      },
+      "homepage": "https://github.com/wukongnotnull/wk-skills",
+      "category": "presentation",
+      "tags": ["slides", "html", "presentation"]
+    }
+  ]
+}
